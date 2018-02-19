@@ -4,9 +4,13 @@
   "description": "javascript upskill - Turing Grow",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node starter.js"
+    "test": "jest",
+    "start": "node starter.js"
   },
   "author": "lebradley",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^22.3.0",
+    "mocha": "^5.0.1"
+  }
 }
